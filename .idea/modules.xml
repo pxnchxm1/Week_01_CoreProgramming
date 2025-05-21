@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_JavaFundamentals/01_JavaFundamentals.iml" filepath="$PROJECT_DIR$/01_JavaFundamentals/01_JavaFundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ControlFlows/02_ControlFlows.iml" filepath="$PROJECT_DIR$/02_ControlFlows/02_ControlFlows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_JavaArrays/03_JavaArrays.iml" filepath="$PROJECT_DIR$/03_JavaArrays/03_JavaArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_JavaMethods/04_JavaMethods.iml" filepath="$PROJECT_DIR$/04_JavaMethods/04_JavaMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_JavaStrings/05_JavaStrings.iml" filepath="$PROJECT_DIR$/05_JavaStrings/05_JavaStrings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_01_Strings_Extras1/06_01_Strings_Extras1.iml" filepath="$PROJECT_DIR$/06_01_Strings_Extras1/06_01_Strings_Extras1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_02_Strings_Extras2/06_02_Strings_Extras2.iml" filepath="$PROJECT_DIR$/06_02_Strings_Extras2/06_02_Strings_Extras2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Week_01_CoreProgramming.iml" filepath="$PROJECT_DIR$/.idea/Week_01_CoreProgramming.iml" />
+    </modules>
+  </component>
+</project>
