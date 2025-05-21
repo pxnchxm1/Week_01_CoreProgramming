@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Ten{
+public class ChocolatesOfQuantity{
 	public static int[] qAndR(int a ,int b){
 		int[] res = new int[2];
 		res[0] = a/b;

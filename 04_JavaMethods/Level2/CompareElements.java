@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Nine{
+public class CompareElements{
 	public static boolean isEven(int n){
 		if(n%2==0) return true;
 		return false;
@@ -40,7 +40,7 @@ public class Nine{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		int[] numbers = new int[5];
-		Nine nine = new Nine();
+		CompareElements nine = new CompareElements();
 		for(int i =0;i<numbers.length;i++){
 			System.out.println("Enter number : ");
 			numbers[i] = sc.nextInt();

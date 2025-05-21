@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Nine{
+public class RockPaperScissor{
     
     public static char winner(String c,String u){
 		if((c.equals("paper") && u.equals("rock")) || (c.equals("rock") && u.equals("scissors")) || (c.equals("scissors") && u.equals("paper"))){

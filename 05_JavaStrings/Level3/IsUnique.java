@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Two{
+public class IsUnique{
     
 	public static int len(String s){
 		int count = 0;
@@ -40,7 +40,7 @@ public class Two{
        Scanner sc = new Scanner(System.in);
 	   System.out.println("Enter a string : ");
 	   String str = sc.nextLine();
-	   char[] arr = Two.uniques(str);
+	   char[] arr = IsUnique.uniques(str);
 	   System.out.println(Arrays.toString(arr));
       
     }

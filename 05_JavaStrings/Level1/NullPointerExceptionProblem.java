@@ -1,5 +1,5 @@
 
-public class Four {
+public class NullPointerExceptionProblem {
     public static char genExp(String s){
 		return s.charAt(0);
 	}
@@ -12,10 +12,9 @@ public class Four {
 		}
 	}
     public static void main(String[] args) {
- 
         String s = null;
 		//Four.genExp(s);
-        Four.handleExp(s);
+		NullPointerExceptionProblem.handleExp(s);
       
     }
 }

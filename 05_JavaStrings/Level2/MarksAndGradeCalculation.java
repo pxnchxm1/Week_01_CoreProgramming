@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Ten {
+public class MarksAndGradeCalculation {
 
     public static double[][] marksGen(int n) {
         double[][] marks = new double[n][3]; 

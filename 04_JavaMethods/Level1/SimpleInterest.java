@@ -1,5 +1,5 @@
 import java.util.Scanner ;
-public class One{
+public class SimpleInterest{
 	public double simpleInterest(double p,double r, int t){
 		double si = ((p * r * t) / 100 ) ;
 		return si;

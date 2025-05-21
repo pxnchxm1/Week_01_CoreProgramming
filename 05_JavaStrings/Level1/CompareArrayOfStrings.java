@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-class Three {
+class CompareArrayOfStrings {
     public static char[] charArr(String str) {
         char[] charArray = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {

@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class One{
+public class ShortestTallestAndMean{
 	public  int[] generate3DigitRandomArray(int size){
 		int[] num = new int[size];
 		for(int i=0;i<size;i++){
@@ -24,7 +24,7 @@ public class One{
 		return res;
 	}
 	public static void main(String[] args){
-		One one = new One();
+		ShortestTallestAndMean one = new ShortestTallestAndMean();
 		int[] heights = one.generate3DigitRandomArray(11);
 		System.out.println(Arrays.toString(heights));
 		double[] ans = one.meanMaxMin(heights);

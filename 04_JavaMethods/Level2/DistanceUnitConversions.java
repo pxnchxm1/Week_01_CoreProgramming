@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Five{
+public class DistanceUnitConversions{
 	public static double yardsToFeet(double yards){
 		return yards * 3 ;
 	}

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Eight {
+public class EnterArrayElements {
     public static String generateException(String[] arr){
 		return arr[arr.length];
 	}
@@ -27,8 +27,8 @@ public class Eight {
 			arr[i] = sc.nextLine();
 		}
 		System.out.println("Arrays : "+ Arrays.toString(arr));
-		//System.out.println("Element at index " + arr.length + " : " + Eight.generateException(arr));
-        Eight.handle(arr);
+		//System.out.println("Element at index " + arr.length + " : " + EnterArrayElements.generateException(arr));
+		EnterArrayElements.handle(arr);
         sc.close();
     }
 }

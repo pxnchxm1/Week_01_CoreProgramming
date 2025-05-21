@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Three{
+public class IsHarshad{
 	public static int countOfDigits(int num){
 		int res=0;
 		int n = num;
@@ -59,16 +59,16 @@ public class Three{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int number = sc.nextInt();
-		int count = Three.countOfDigits(number);
+		int count = IsHarshad.countOfDigits(number);
 		System.out.println("No of digits : " + count);
-		int[] arr = Three.generateArray(number,count );
+		int[] arr = IsHarshad.generateArray(number,count );
 		System.out.println("Digit array : " + Arrays.toString(arr));
-		int s = Three.sumOfArray(arr);
+		int s = IsHarshad.sumOfArray(arr);
 		System.out.println("Sum of digits of the number ? " + s );
-		int ss = Three.squareSum(arr);
-		System.out.println("Harshad : " + Three.isHarshad(number,s));
+		int ss = IsHarshad.squareSum(arr);
+		System.out.println("Harshad : " + IsHarshad.isHarshad(number,s));
 		System.out.println("Sum of squares of digits of the number ? " + ss );
-		Three.freq(arr);
+		IsHarshad.freq(arr);
 	}
 	
 }

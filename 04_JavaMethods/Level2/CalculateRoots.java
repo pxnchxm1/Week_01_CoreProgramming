@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Eleven{
+public class CalculateRoots{
 	public double[] roots(double a ,double b,double c){
 		double[] r = {0.0,0.0};
 		double delta =  ( b*b ) - (4*a*c);
@@ -24,7 +24,7 @@ public class Eleven{
 		double b = sc.nextDouble();
 		System.out.println("Enter constant : c ");
 		double c = sc.nextDouble();
-		Eleven el = new Eleven();
+		CalculateRoots el = new CalculateRoots();
 		double[] ans = el.roots(a,b,c);
 		if(ans[0]==0 && ans[1]==0){
 			System.out.println("No roots , imaginary");

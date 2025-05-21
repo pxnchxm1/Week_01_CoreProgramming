@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Four{
+public class UniqueCharacters{
     
 	
 	public static int[] frequency(String s){
@@ -29,8 +29,8 @@ public class Four{
 		return uniqueChars.toString().toCharArray();
 	}
 	public static String[][] frequencyOfChars(String s){
-		int[] f = Four.frequency(s);
-		char[] unique = Four.uniques(s);
+		int[] f = UniqueCharacters.frequency(s);
+		char[] unique = UniqueCharacters.uniques(s);
 		String[][] ans = new String[unique.length][2];
 		int idx=0;
 		for(int i=0;i<unique.length;i++){

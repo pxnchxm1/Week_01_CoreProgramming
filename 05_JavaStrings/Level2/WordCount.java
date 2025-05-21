@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Two{
+public class WordCount{
     
 	public static int len(String s){
 		int count = 0;
@@ -15,7 +15,7 @@ public class Two{
 	}
 	public static int wordCount(String s){
 		int w = 0;
-		for(int i=0; i < Two.len(s);i++){
+		for(int i=0; i < WordCount.len(s);i++){
 			if((s.charAt(i)) == ' '){
 				w++;
 			}
@@ -23,11 +23,11 @@ public class Two{
 		return (s=="" ? 0 : w+1);
 	}
 	public static String[] wordArray(String s){
-		int w = Two.wordCount(s);
+		int w = WordCount.wordCount(s);
 		int idx=0;
 		String[] ans = new String[w];
 		String temp="";
-		for(int i=0; i < Two.len(s);i++){
+		for(int i=0; i < WordCount.len(s);i++){
 			
 			if(s.charAt(i)== ' ' ){
 				ans[idx] = temp;
@@ -49,7 +49,7 @@ public class Two{
 	   System.out.println("Enter a string : ");
 	   String str = sc.nextLine();
 	  
-	  String[] arr = Two.wordArray(str);
+	  String[] arr = WordCount.wordArray(str);
 	  System.out.println("Split using user defined method : " + Arrays.toString(arr));
 	  String[] arr2 = str.split(" ");
 	  System.out.println("Split using built in method : " + Arrays.toString(arr2));

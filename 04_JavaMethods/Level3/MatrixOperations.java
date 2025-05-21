@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Thirteen {
+public class MatrixOperations {
 
     public static int[][] generateMatrix(int r,int c) {
 		int[][] m = new int[r][c];
@@ -104,48 +104,48 @@ public class Thirteen {
         int c = sc.nextInt();
         sc.close();
 		
-		int[][] m1 = Thirteen.generateMatrix(r,c);
+		int[][] m1 = MatrixOperations.generateMatrix(r,c);
         System.out.println("The matrix is : \n ");
-		Thirteen.displayMat(m1);
+        MatrixOperations.displayMat(m1);
 		
-		int[][] m2 = Thirteen.generateMatrix(r,c);
+		int[][] m2 = MatrixOperations.generateMatrix(r,c);
 		System.out.println("The matrix2 is : \n ");
-		Thirteen.displayMat(m2);
+        MatrixOperations.displayMat(m2);
 		
-		int[][] addedmatrix = Thirteen.addMatrices(m1,m2);
+		int[][] addedmatrix = MatrixOperations.addMatrices(m1,m2);
 		System.out.println("The matrix addition is : \n ");
-		Thirteen.displayMat(addedmatrix);
+        MatrixOperations.displayMat(addedmatrix);
 		
-		int[][] submatrix = Thirteen.subMatrices(m1,m2);
+		int[][] submatrix = MatrixOperations.subMatrices(m1,m2);
 		System.out.println("The matrix subtraction is : \n ");
-		Thirteen.displayMat(submatrix);
+        MatrixOperations.displayMat(submatrix);
 		
-		int[][] mul = Thirteen.multiplyMatrices(m1,m2);
+		int[][] mul = MatrixOperations.multiplyMatrices(m1,m2);
 		System.out.println("The matrix multiplication is : \n ");
 		Thirteen.displayMat(mul);
 		
-		int[][] trans = Thirteen.transposeMatrix(m1);
+		int[][] trans = MatrixOperations.transposeMatrix(m1);
 		System.out.println("The matrix transpose is : \n ");
 		Thirteen.displayMat(trans);
 		
 		
-		int[][] m3 = Thirteen.generateMatrix(2,2);
+		int[][] m3 = MatrixOperations.generateMatrix(2,2);
 		System.out.println("The 2*2 : \n "); 
 		Thirteen.displayMat(m3);
 		
-		int det2 = Thirteen.determinant2(m3);
+		int det2 = MatrixOperations.determinant2(m3);
 		System.out.println("The matrix determinant2 is : \n " + det2);
 		
-		int[][] inv = Thirteen.inverse2(m3);
+		int[][] inv = MatrixOperations.inverse2(m3);
 		System.out.println("The matrix inverse(2*2) is : \n ");
 		Thirteen.displayMat(inv);
 		
-		int[][] m4 = Thirteen.generateMatrix(3,3);
+		int[][] m4 = MatrixOperations.generateMatrix(3,3);
 		System.out.println("The 3*3 : \n "); 
 		Thirteen.displayMat(m4);
 		
 		
-		int det3 = Thirteen.determinant2(m4);
+		int det3 = MatrixOperations.determinant2(m4);
 		System.out.println("The matrix determinant2 is : \n " + det3);
 		
         

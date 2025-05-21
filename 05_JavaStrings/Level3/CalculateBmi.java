@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class One{
+public class CalculateBmi{
 	public static void bmi(double[][] arr){
 		for(int i=0;i<arr.length;i++){
 			double bmi = arr[i][0] / ( arr[i][1] * arr[i][1]) ;
@@ -32,7 +32,7 @@ public class One{
 			System.out.println("Enter height : ");
 			arr[i][1] = sc.nextDouble()*0.01;
 		}
-		One.bmi(arr);
+		CalculateBmi.bmi(arr);
 		sc.close();
 	}
 	

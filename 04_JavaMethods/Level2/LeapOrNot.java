@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Three{
+public class LeapOrNut{
 	
 	public static boolean leap(int n){
 		if( n>1582 && ( (n%4==0) && (n%100!=0))|| (n%400 ==0) ){

@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Six{
+public class AbundantIsStrongGreatestFactor{
 	public static int[] factors(int n){
 		int c=0;
 		for(int i = 1;i<=n;i++){
@@ -46,19 +46,19 @@ public class Six{
 		return f;
 	}
 	public static boolean isPerfect(int[] factors,int number){
-		if(Six.sumOfFact(factors)==number){
+		if(AbundantIsStrongGreatestFactor.sumOfFact(factors)==number){
 			return true;
 		}
 		return false;
 	}
 	public static boolean isAbundant(int[] factors,int number){
-		if(Six.sumOfFact(factors)>number){
+		if(AbundantIsStrongGreatestFactor.sumOfFact(factors)>number){
 			return true;
 		}
 		return false;
 	}
 	public static boolean isDeficient(int[] factors,int number){
-		if(Six.sumOfFact(factors)<number){
+		if(AbundantIsStrongGreatestFactor.sumOfFact(factors)<number){
 			return true;
 		}
 		return false;
@@ -67,13 +67,13 @@ public class Six{
 		if(n==0){
 			return 1;
 		}else{
-			return (n * Six.factorial(n-1));
+			return (n * AbundantIsStrongGreatestFactor.factorial(n-1));
 		}
 	}
 	public static boolean isStrong(int[] factors,int num){
 		int s = 0;
 		for(int i=0;i<factors.length;i++){
-			s += Six.factorial(factors[i]);
+			s += AbundantIsStrongGreatestFactor.factorial(factors[i]);
 		}
 		return s==num;
 		
@@ -82,16 +82,16 @@ public class Six{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number : " );
 	    int num = sc.nextInt();
-		int[] factorArray = Six.factors(num);
+		int[] factorArray = AbundantIsStrongGreatestFactor.factors(num);
 		System.out.println("FACTOR ARRAY : " + Arrays.toString(factorArray)); 
-		System.out.println("greatest factor : " + Six.greatestFact(factorArray));
-		System.out.println("Sum :"+ Six.sumOfFact(factorArray));
-		System.out.println("Product :"+ Six.productOfFact(factorArray));
-		System.out.println("Product of cube of factors  :"+ Six.cubeProductOfFact(factorArray));
-		System.out.println("Perfect number ? " + Six.isPerfect(factorArray,num));
-		System.out.println("Abundant number ? " + Six.isAbundant(factorArray,num));
-		System.out.println("Deficient number ? " + Six.isDeficient(factorArray,num));
-		System.out.println("Strong number ? " + Six.isStrong(factorArray,num));
+		System.out.println("greatest factor : " + AbundantIsStrongGreatestFactor.greatestFact(factorArray));
+		System.out.println("Sum :"+ AbundantIsStrongGreatestFactor.sumOfFact(factorArray));
+		System.out.println("Product :"+ AbundantIsStrongGreatestFactor.productOfFact(factorArray));
+		System.out.println("Product of cube of factors  :"+ AbundantIsStrongGreatestFactor.cubeProductOfFact(factorArray));
+		System.out.println("Perfect number ? " + AbundantIsStrongGreatestFactor.isPerfect(factorArray,num));
+		System.out.println("Abundant number ? " + AbundantIsStrongGreatestFactor.isAbundant(factorArray,num));
+		System.out.println("Deficient number ? " + AbundantIsStrongGreatestFactor.isDeficient(factorArray,num));
+		System.out.println("Strong number ? " + AbundantIsStrongGreatestFactor.isStrong(factorArray,num));
 	}
 	
 }

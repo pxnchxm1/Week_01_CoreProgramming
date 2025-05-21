@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Nine {
+public class CompareStrings {
     public static String toUpper(String s){
 		String ans="";
 		for(int i=0;i<s.length();i++){
@@ -37,9 +37,9 @@ public class Nine {
         Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string : " );
 		String s = sc.nextLine();
-		String s1 = Nine.toUpperBuilt(s);
-		String s2 = Nine.toUpper(s);
-		System.out.println(Nine.compare(s1,s2));
+		String s1 = CompareStrings.toUpperBuilt(s);
+		String s2 = CompareStrings.toUpper(s);
+		System.out.println(CompareStrings.compare(s1,s2));
 		
         sc.close();
     }

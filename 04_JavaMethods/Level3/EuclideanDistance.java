@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Nine{
+public class EuclideanDistance{
 	public static double euclidianDistance(double a,double b,double c,double d){
 		return Math.sqrt(Math.pow(c-a,2)) + Math.sqrt(Math.pow(d-b,2));
 	}
@@ -20,7 +20,7 @@ public class Nine{
 		double x2 = sc.nextDouble();
 		System.out.println("enter y2 : ");
 		double y2 = sc.nextDouble();
-		double euc = Nine.euclidianDistance(x1,y1,x2,y2);
+		double euc = EuclideanDistance.euclidianDistance(x1,y1,x2,y2);
 		System.out.println("Euclidean distance : " + euc);
 		Nine.equationLine(x1,y1,x2,y2);
 		

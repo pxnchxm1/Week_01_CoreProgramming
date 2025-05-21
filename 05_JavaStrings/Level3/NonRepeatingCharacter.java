@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Three{
+public class NonRepeatingCharacter{
     
 	
 	public static int[] frequency(String s){
@@ -12,7 +12,7 @@ public class Three{
 		return freqs; 
 	}
 	public static char nonRepeatingFirst(String s){
-		int[] f = Three.frequency(s);
+		int[] f = NonRepeatingCharacter.frequency(s);
 		for(int i=0;i<s.length();i++){
 			if(f[s.charAt(i)]==1){
 				return s.charAt(i);

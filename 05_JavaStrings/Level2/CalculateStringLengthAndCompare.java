@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class One {
+public class CalculateStringLengthAndCompare {
     
 	public static int handleExp(String s){
 		int count = 0;
@@ -18,7 +18,7 @@ public class One {
        Scanner sc = new Scanner(System.in);
 	   System.out.println("Enter a string : ");
 	   String str = sc.next();
-	   System.out.println("length using user defined method : "+ One.handleExp(str));
+	   System.out.println("length using user defined method : "+ CalculateStringLengthAndCompare.handleExp(str));
 	  
 	   System.out.println("length using built in method : " + str.length());
       

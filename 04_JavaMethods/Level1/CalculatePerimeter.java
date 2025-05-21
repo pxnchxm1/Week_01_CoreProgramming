@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Four{
+public class CalculatePerimeter{
 	public double rounds(int a , int b, int c){
 		int distance = 5000; //5km
 		int permiter = (a+b+c) ;

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class One{
+public class SalaryBonus{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		double[][] oldSalYear = new double[10][2];

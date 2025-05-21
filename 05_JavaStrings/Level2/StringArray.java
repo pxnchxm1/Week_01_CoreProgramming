@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Three{
+public class StringArray{
     
 	public static int len(String s){
 		int count = 0;

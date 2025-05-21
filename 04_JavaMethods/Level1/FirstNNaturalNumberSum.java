@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Seven{
+public class FirstNNaturalNumberSum{
 	public int sumOfFirstN(int n){
 		int s=0;
 		for(int i=1;i<=n;i++){

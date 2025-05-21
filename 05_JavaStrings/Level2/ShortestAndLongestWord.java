@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Four{
+public class ShortedAndLongest{
     
 	public static int len(String s){
 		int count = 0;
@@ -65,8 +65,8 @@ public class Four{
 	   System.out.println("Enter a string : ");
 	   String str = sc.nextLine();
 	  
-	  String[][] arr = Four.wordArray(str);
-	  String[] answer = Four.shortestLargest(arr);
+	  String[][] arr = ShortedAndLongest.wordArray(str);
+	  String[] answer = ShortedAndLongest.shortestLargest(arr);
 	  System.out.println("Shortest word : "+ answer[0] + "\nLongest : "+answer[1]);
       
     }

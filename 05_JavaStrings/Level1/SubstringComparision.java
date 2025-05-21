@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Two {
+class SubstringComparision {
      public static String substring(String text, int start, int end) {
         String result = "";
         for (int i = start; i < end; i++) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Five {
+public class StringOutOfBoundException {
     public static char genExp(String s){
 		return s.charAt(s.length());
 	}
@@ -16,7 +16,7 @@ public class Five {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
-        Five.handleExp(s);
+		StringOutOfBoundException.handleExp(s);
         sc.close();
     }
 }

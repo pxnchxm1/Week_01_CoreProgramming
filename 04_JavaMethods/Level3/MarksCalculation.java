@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Twelve {
+public class MarksCalculation {
 
     public static double[][] marksGen(int n) {
         double[][] marks = new double[n][3]; 
@@ -29,8 +29,8 @@ public class Twelve {
         int n = sc.nextInt();
         sc.close();
 
-        double[][] m = Twelve.marksGen(n);
-        double[][] c = Twelve.total(m);
+        double[][] m = MarksCalculation.marksGen(n);
+        double[][] c = MarksCalculation.total(m);
 
         System.out.println("Index | Physics | Chemistry | Maths | Total | Average | Percentage");
         for (int i = 0; i < n; i++) {

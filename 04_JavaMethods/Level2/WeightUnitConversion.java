@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Six{
+public class WeightUnitConversion{
 	public static double fahToCel(double f){
 		return ((f - 32 )* 5 / 9);
 	}

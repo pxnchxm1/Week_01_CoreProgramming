@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Seven{
+public class TrimAndCompareStrings{
     
     static int start(String s){
 		for(int i=0;i<s.length();i++){
@@ -36,13 +36,13 @@ public class Seven{
        Scanner sc = new Scanner(System.in);
 	   System.out.println("Enter a string : ");
 	   String str = sc.nextLine();
-	   int s = Seven.start(str);
-	   int e = Seven.end(str);
-	   String sub = Seven.subS(s,e,str);
+	   int s = TrimAndCompareStrings.start(str);
+	   int e = TrimAndCompareStrings.end(str);
+	   String sub = TrimAndCompareStrings.subS(s,e,str);
 	   String t = str.trim();
 	   System.out.println("Using user defined trim : "+ sub);
 	   System.out.println("Using built in  trim : "+ t);
-	   System.out.println("Comparing...."+ Seven.compare(sub,t));
+	   System.out.println("Comparing...."+ TrimAndCompareStrings.compare(sub,t));
 	   
     }
 }

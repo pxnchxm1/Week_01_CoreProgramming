@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Four{
+public class DuckArray{
 	public static int countOfDigits(int num){
 		int res=0;
 		int n = num;
@@ -46,15 +46,15 @@ public class Four{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int number = sc.nextInt();
-		int count = Four.countOfDigits(number);
+		int count = DuckArray.countOfDigits(number);
 		System.out.println("No of digits : " + count);
-		int[] arr = Four.generateArray(number,count );
+		int[] arr = DuckArray.generateArray(number,count );
 		System.out.println("Digit array : " + Arrays.toString(arr));
-		int[] rev = Four.reverse(arr);
+		int[] rev = DuckArray.reverse(arr);
 		System.out.println("Reversed array : " + Arrays.toString(rev));
 		System.out.println("Comparing two arrays :" + Arrays.toString(arr)+ " and " + Arrays.toString(rev) + "Result : " + Arrays.equals(rev,arr));
-		System.out.println("Palindrome ? "+ Four.isPal(arr,rev));
-		System.out.println("DuckArray : " + Four.duck(arr));
+		System.out.println("Palindrome ? "+ DuckArray.isPal(arr,rev));
+		System.out.println("DuckArray : " + DuckArray.duck(arr));
 	}
 	
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Ten{
+public class CollinearPoints{
 	public static boolean collinearUsingTriangle(double x1,double y1,double x2,double y2,double x3,double y3){
 		return (0.5 * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) == 0.0);
 
@@ -27,8 +27,8 @@ public class Ten{
 		double x3 = sc.nextDouble();
 		System.out.println("enter y3 : ");
 		double y3 = sc.nextDouble();
-		System.out.println("Using Triangle formulae ...Is Collinear -- " +Ten.collinearUsingTriangle(x1,y1,x2,y2,x3,y3));
-		System.out.println("Using Slope formulae ...Is Collinear -- " +Ten.isCollinearSlope(x1,y1,x2,y2,x3,y3));
+		System.out.println("Using Triangle formulae ...Is Collinear -- " +CollinearPoints.collinearUsingTriangle(x1,y1,x2,y2,x3,y3));
+		System.out.println("Using Slope formulae ...Is Collinear -- " +CollinearPoints.isCollinearSlope(x1,y1,x2,y2,x3,y3));
 		
 	}
 	

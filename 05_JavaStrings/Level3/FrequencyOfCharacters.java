@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Six {
+public class FrequencyOfCharacters {
     
     public static String[] frequencyOfChars(String s) {
         char[] arr = s.toCharArray();

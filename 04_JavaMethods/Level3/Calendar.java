@@ -2,7 +2,7 @@ import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
 import java.util.HashSet;
-public class Eight{
+public class Calendar{
 	
 	public static boolean isLeapYear(int n){
 		if((n>1582 )&&((n%4==0 && n%100!=0) || (n%400==0))){
@@ -48,13 +48,13 @@ public class Eight{
 		int year = sc.nextInt();
 		String[] months = {"Jan","Feb","March","April","May","June","July","Aug","Sep","Oct","Nov","Dec"};	
 		int[] days =  {31,28,31,30,31,30,31,31,30,31,30,31};
-		if(Eight.isLeapYear(year)){
+		if(Calendar.isLeapYear(year)){
 			days[1]=29;
 		}
-		String nameMonth = Eight.monthName(month,months);
-		int numberOfDays = Eight.noOfDays(month,days);
-		int firstDay = Eight.firstDay(year,month,numberOfDays);
-		Eight.displayCalendar(year,month,numberOfDays,nameMonth,firstDay);
+		String nameMonth = Calendar.monthName(month,months);
+		int numberOfDays = Calendar.noOfDays(month,days);
+		int firstDay = Calendar.firstDay(year,month,numberOfDays);
+		Calendar.displayCalendar(year,month,numberOfDays,nameMonth,firstDay);
 		
 	}
 	

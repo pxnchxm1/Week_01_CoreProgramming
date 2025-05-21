@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Five{
+public class IsPositive{
 	public int posNegZero(int n){
 		int res;
 		if(n>=0){

@@ -1,6 +1,6 @@
 
 import java.lang.Math;
-public class Eleven{
+public class CalculateBonus{
 	
 	public static int[][] salaryYears(){
 		int[][] sy = new int[10][2];
@@ -28,13 +28,13 @@ public class Eleven{
 		return ans;
 	}
 	public static void main(String[] args){
-		int[][] o = Eleven.salaryYears();
-		int[][] n = Eleven.newSalAndBonus(o);
+		int[][] o = CalculateBonus.salaryYears();
+		int[][] n = CalculateBonus.newSalAndBonus(o);
 		System.out.println("index -- old salary -- years -- new salary -- bonus");
 		for(int i=0;i<10;i++){
 			System.out.println(i+1 + "--"+ o[i][0]+"--"+o[i][1]+"--"+n[i][0]+"--"+n[i][1]);
 		}
-		int[] ans = Eleven.calcTotals(o,n);
+		int[] ans = CalculateBonus.calcTotals(o,n);
 		System.out.println("Total bonus : " + ans[2] + "\n Total old salary : " + ans[0] + "\n Total new Salary : "+ ans[1]);
 		
 	}

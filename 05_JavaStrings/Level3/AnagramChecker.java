@@ -1,8 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Eight {
-    
-   
+public class AnagramChecker {
 
     public static void display(char[] a,char[] b) {
         Arrays.sort(a);

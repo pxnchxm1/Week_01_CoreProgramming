@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Two{
+public class RecursiveSum{
 	
 	public int recursiveSum(int n){
 		if(n==0){
@@ -18,7 +18,7 @@ public class Two{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = sc.nextInt();
-		Two two = new Two();
+		RecursiveSum two = new RecursiveSum();
 		System.out.println("The result using recursion  : " + two.recursiveSum(num));
 		System.out.println("The result using formulae  : " + two.formulaeSum(num));
 		System.out.println("Are they both same ? " + (two.recursiveSum(num)== two.formulaeSum(num)));

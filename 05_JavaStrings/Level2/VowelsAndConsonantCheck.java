@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Five{
+public class VowelsAndConsonantCheck{
     
     public static char isVowel(char c){
         char ch = c;
@@ -32,7 +32,7 @@ public class Five{
        Scanner sc = new Scanner(System.in);
 	   System.out.println("Enter a string : ");
 	   String str = sc.nextLine();
-	   int[] res = Five.count(str);
+	   int[] res = VowelsAndConsonantCheck.count(str);
 	   System.out.println("vowels : "+ res[0]+"\n consonants : "+res[1]);
 	   
     }

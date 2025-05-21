@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Five{
+public class NeonPrimeSpyAutomorphicNumbers{
 	
 	
 	public static boolean isPrime(int number){
@@ -44,7 +44,7 @@ public class Five{
 	
 	
 	public static void main(String[] args){
-		Five five = new Five();
+		NeonPrimeSpyAutomorphicNumbers five = new NeonPrimeSpyAutomorphicNumbers();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int n = sc.nextInt();

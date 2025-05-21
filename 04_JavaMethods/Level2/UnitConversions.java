@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Four{
+public class UnitConversions{
 	public static double kmToMiles(double km){
 		return km * 0.621 ;
 	}

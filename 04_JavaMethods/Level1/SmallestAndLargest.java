@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Eight{
+public class SmallestAndLargest{
 	public static int[] smallAndLarge(int a,int b,int c){
 		int[] res = new int[2];
 		if(a >= b && a>=c){

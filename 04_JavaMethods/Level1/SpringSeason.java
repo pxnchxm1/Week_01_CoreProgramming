@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Six{
+public class SpringSeason{
 	public boolean spring(int m,int d){
 		boolean res=false;
 		if( ( m>3 && m<6 ) || (m==3 && d>=20) || (m==6 &&d<=20)){

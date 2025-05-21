@@ -2,7 +2,7 @@ import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
 import java.util.HashSet;;
-public class Seven{
+public class OtpValidation{
 	
 	//generate otp
 	public static int generateOTP(){
@@ -30,9 +30,9 @@ public class Seven{
 	}
 	
 	public static void main(String[] args){
-		int[] otpArray = Seven.generateOTPArray();
+		int[] otpArray = OtpValidation.generateOTPArray();
 		System.out.println("OTP ARRAY IS : "+ Arrays.toString(otpArray));
-		System.out.println("IS UNIQUE : "+ Seven.validate(otpArray));
+		System.out.println("IS UNIQUE : "+ OtpValidation.validate(otpArray));
 		
 	}
 	

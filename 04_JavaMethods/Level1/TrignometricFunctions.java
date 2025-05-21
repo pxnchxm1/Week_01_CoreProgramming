@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Twelve{
+public class TrignometricFunctions{
 	public static double[] trignoFunctions(double degree){
 		double[] res = new double[3];
 		res[0] = Math.sin(degree);
@@ -13,7 +13,7 @@ public class Twelve{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the degree: ");
 		double d = sc.nextDouble() * (3.14 / 180 );
-		double[] ans = Twelve.trignoFunctions(d);
+		double[] ans = TrignometricFunctions.trignoFunctions(d);
 		System.out.println("Sin : " + ans[0] + " Cosine : " + ans[1]+" Tan : " + ans[2]);
 	}
 }

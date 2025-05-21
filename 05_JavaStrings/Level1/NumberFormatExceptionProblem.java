@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Seven {
+public class NumberFormatExceptionProblem {
     public static int generateException(String s){
 		return Integer.parseInt(s);
 	}
@@ -18,7 +18,7 @@ public class Seven {
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
         //System.out.println("number is : " + Seven.generateException(s));
-		Seven.handle(s);
+        NumberFormatExceptionProblem.handle(s);
         sc.close();
     }
 }

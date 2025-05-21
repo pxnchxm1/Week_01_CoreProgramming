@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class Eight{
+public class VoteEligibleOrNot{
     
     public static String canVote(int age){
 		if(age<0){
@@ -19,7 +19,7 @@ public class Eight{
 	public static int[] getAges(){
 		int[] ans = new int[10];
 		for(int i=0;i<10;i++){
-			ans[i]=Eight.genAge();
+			ans[i]=VoteEligibleOrNot.genAge();
 		}
 		return ans;
 	}
@@ -35,7 +35,7 @@ public class Eight{
  
        
 	   int[] ages = getAges();
-	   String[][] res = Eight.validity(ages);
+	   String[][] res = VoteEligibleOrNot.validity(ages);
 	   for(int i=0;i<res.length;i++){
 	       System.out.println("Age : " +res[i][0]+ " : " + res[i][1]);
 	   }

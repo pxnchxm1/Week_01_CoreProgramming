@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class One{
+public class SquareSum{
 	public static int countLength(int n){
 		int c = 0;
 		for(int i=1;i<=n;i++){
@@ -35,7 +35,7 @@ public class One{
 		System.out.println("Enter the number: ");
 		int num = sc.nextInt();
 		int count = One.countLength(num);
-		One one = new One();
+		SquareSum one = new SquareSum();
 		int[] factorArray = one.factArr(count,num);
 		double[] result = one.sumSquareProduct(factorArray,count);
 		System.out.println("The factor array is : " + Arrays.toString(factorArray));

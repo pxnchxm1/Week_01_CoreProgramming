@@ -1,5 +1,5 @@
 import java.util.Scanner ;
-public class Three{
+public class HandshakeNumber{
 	public int handshakes(int n){
 		int res = (n * (n -1 )) / 2 ;
 		return res;

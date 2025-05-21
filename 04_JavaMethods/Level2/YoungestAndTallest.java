@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Eight{
+public class YoungestAndTallest{
 	public static int youngest(int[] a){
 		int young = Integer.MAX_VALUE;
 		int youngidx=0;

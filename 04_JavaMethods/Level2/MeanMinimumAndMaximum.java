@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Twelve{
+public class MeanMinimumAndMaximum{
 	public  int[] generate4DigitRandomArray(int size){
 		int[] num = new int[size];
 		for(int i=0;i<size;i++){
@@ -24,7 +24,7 @@ public class Twelve{
 		return res;
 	}
 	public static void main(String[] args){
-		Twelve twelve = new Twelve();
+		MeanMinimumAndMaximum twelve = new MeanMinimumAndMaximum();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the size of the array");
 		int n = sc.nextInt();

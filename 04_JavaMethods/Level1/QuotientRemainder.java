@@ -1,6 +1,6 @@
 import java.util.Scanner ;
 import java.lang.Math;
-public class Nine{
+public class QuotientRemainder{
 	public static double[] qAndR(double a ,double b){
 		double[] res = new double[2];
 		res[0] = a/b;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Six {
+public class IllegalArgumentExceptionProblem {
     public static String generateException(String s){
 		int start = s.length()-2;
 		int end = 0;
@@ -22,7 +22,7 @@ public class Six {
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
         //Six.generateException(s);
-		Six.handle(s);
+		IllegalArgumentExceptionProblem.handle(s);
 
         sc.close();
     }

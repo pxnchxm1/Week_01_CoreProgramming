@@ -1,7 +1,7 @@
 import java.util.Scanner ;
 import java.lang.Math;
 import java.util.Arrays;
-public class Two{
+public class ArmstrongAndDuckArray{
 	public static int countOfDigits(int num){
 		int res=0;
 		int n = num;
@@ -75,19 +75,19 @@ public class Two{
 	}
 	
 	public static void main(String[] args){
-		Two two = new Two();
+		ArmstrongAndDuckArray two = new ArmstrongAndDuckArray();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int number = sc.nextInt();
-		int count = Two.countOfDigits(number);
+		int count = ArmstrongAndDuckArray.countOfDigits(number);
 		System.out.println("No of digits : " + count);
-		int[] arr = Two.generateArray(number,count );
+		int[] arr = ArmstrongAndDuckArray.generateArray(number,count );
 		System.out.println("Digit array : " + Arrays.toString(arr));
-		System.out.println("DuckArray : " + Two.duck(arr));
-		System.out.println("Armstrong ? "+ Two.armstrong(arr,number));
-		int[] sm = Two.smAndSecondSm(arr);
+		System.out.println("DuckArray : " + ArmstrongAndDuckArray.duck(arr));
+		System.out.println("Armstrong ? "+ ArmstrongAndDuckArray.armstrong(arr,number));
+		int[] sm = ArmstrongAndDuckArray.smAndSecondSm(arr);
 		System.out.println("Smallest : "+ sm[0] + "-- Second smallest :" + sm[1] );
-		int[] lg = Two.lgAndsSecondLg(arr);
+		int[] lg = ArmstrongAndDuckArray.lgAndsSecondLg(arr);
 		System.out.println("Largest : "+ lg[0] + "-- Second largest :" + lg[1] );
 	}
 	
